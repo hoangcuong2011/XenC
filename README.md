@@ -1,6 +1,21 @@
 XenC
 ====
 
+
+Added by me:
+
+How to install it:
+
+1. sudo apt-get install libbz2-dev
+
+
+2. sudo apt-get install libboost-all-dev
+
+
+3. cmake . -BOOST_LIBRARYDIR="/usr/lib/x86_64-linux-gnu"
+
+
+
 XenC: an open-source data selection tool for Natural Language Processing
 
 See INSTALL for build instructions.
