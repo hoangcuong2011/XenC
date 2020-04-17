@@ -14,6 +14,9 @@ How to install it:
 
 3. cmake . -BOOST_LIBRARYDIR="/usr/lib/x86_64-linux-gnu"
 
+4. ./XenC -s en -t fr --order 3 -i ./French/indomain.en -o ./French/mixdomain.en --in-ttext ./French/indomain.fr --out-ttext ./French/mixdomain.fr -m 3 -b --threads 8
+sudo poweroff
+
 
 
 XenC: an open-source data selection tool for Natural Language Processing
